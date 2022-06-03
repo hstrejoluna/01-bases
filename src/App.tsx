@@ -5,8 +5,8 @@ import { CounterBy } from "./bases/CounterBy";
 function App() {
   return (
     <>
-      <Counter initialValue />
-      <CounterBy initialValue />
+      <Counter initialValue={1} />
+      <CounterBy initialValue={1} />
     </>
   );
 }
